@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.28803.352
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdontologySystem", "OdontologySystem.csproj", "{E531218D-DC96-420F-8132-0D8FD751700B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "..\Entidades\Entidades.csproj", "{A51DADAB-580D-458D-BF39-419AD1C46AFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "..\DAL\DAL.csproj", "{917C9433-6C62-4B8E-AF00-DFB6C202E645}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{E531218D-DC96-420F-8132-0D8FD751700B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E531218D-DC96-420F-8132-0D8FD751700B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E531218D-DC96-420F-8132-0D8FD751700B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A51DADAB-580D-458D-BF39-419AD1C46AFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A51DADAB-580D-458D-BF39-419AD1C46AFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A51DADAB-580D-458D-BF39-419AD1C46AFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A51DADAB-580D-458D-BF39-419AD1C46AFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{917C9433-6C62-4B8E-AF00-DFB6C202E645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{917C9433-6C62-4B8E-AF00-DFB6C202E645}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{917C9433-6C62-4B8E-AF00-DFB6C202E645}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{917C9433-6C62-4B8E-AF00-DFB6C202E645}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
