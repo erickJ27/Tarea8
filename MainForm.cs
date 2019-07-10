@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using OdontologySystem.Registros;
 namespace OdontologySystem
 {
     public partial class MainForm : Form
@@ -15,6 +15,12 @@ namespace OdontologySystem
         public MainForm()
         {
             InitializeComponent();
+        }
+
+        private void RegistroDeUsuariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            rUsuarios ver = new rUsuarios();
+            ver.Show();
         }
     }
 }
