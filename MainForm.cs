@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using OdontologySystem.Registros;
+using OdontologySystem.Consultas;
 namespace OdontologySystem
 {
     public partial class MainForm : Form
@@ -20,6 +21,12 @@ namespace OdontologySystem
         private void RegistroDeUsuariosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             rUsuarios ver = new rUsuarios();
+            ver.Show();
+        }
+
+        private void ConsultaDeUsuariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            cUsuarios ver = new cUsuarios();
             ver.Show();
         }
     }
