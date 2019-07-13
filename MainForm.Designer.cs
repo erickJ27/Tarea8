@@ -93,6 +93,7 @@
             this.reportesDeUsuariosToolStripMenuItem.Name = "reportesDeUsuariosToolStripMenuItem";
             this.reportesDeUsuariosToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
             this.reportesDeUsuariosToolStripMenuItem.Text = "Reportes de Usuarios";
+            this.reportesDeUsuariosToolStripMenuItem.Click += new System.EventHandler(this.ReportesDeUsuariosToolStripMenuItem_Click);
             // 
             // MainForm
             // 

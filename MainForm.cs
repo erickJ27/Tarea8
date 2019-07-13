@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using OdontologySystem.Registros;
 using OdontologySystem.Consultas;
+using OdontologySystem.Reportes;
 namespace OdontologySystem
 {
     public partial class MainForm : Form
@@ -28,6 +29,13 @@ namespace OdontologySystem
         {
             cUsuarios ver = new cUsuarios();
             ver.Show();
+        }
+
+        private void ReportesDeUsuariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            rptUsuarios ver = new rptUsuarios();
+            ver.Show();
+            
         }
     }
 }
